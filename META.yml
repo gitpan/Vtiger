@@ -1,0 +1,32 @@
+---
+abstract: 'Interface to vtiger5.2 webservices'
+author:
+  - 'Monsenhor <monsenhor@cpan.org>'
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Vtiger
+provides:
+  Vtiger:
+    file: lib/Vtiger.pm
+    version: 1.0
+  Vtiger::Wx:
+    file: lib/Vtiger/Wx.pm
+    version: 0.01000
+  Vtiger::Wx::Editor:
+    file: lib/Vtiger/Wx/Editor.pm
+  Vtiger::Wx::ObjEditorFrame:
+    file: lib/Vtiger/Wx/ObjEditorFrame.pm
+  Vtiger::Wx::vtObjEditor:
+    file: lib/Vtiger/Wx/vtObjEditor.pm
+  Vtiger::WxTypes:
+    file: lib/Vtiger/WxTypes.pm
+resources:
+  license: http://dev.perl.org/licenses/
+version: 1.0
